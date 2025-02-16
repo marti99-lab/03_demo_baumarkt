@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #91dbfd, #0069d9);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#profile-section {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+#profile-section h2 {
+    font-size: 1.8rem;
+    color: #0069d9;
+    margin-bottom: 20px;
+}
+
+#profile-section h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #004a9e;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+form input:focus,
+form textarea:focus {
+    border: 2px solid #0069d9;
+    outline: none;
+}
+
+form label {
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.btn-update {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #004a9e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-update:hover {
+    background-color: #003570;
+    transform: scale(1.05);
+}
+
+.btn-update:active {
+    background-color: #002244;
+    transform: scale(0.95);
+}
+
+#order-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#order-list li {
+    background: #f1f1f1;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#order-list li strong {
+    font-weight: bold;
+    color: #0069d9;
+}
